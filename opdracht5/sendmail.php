@@ -18,7 +18,7 @@ $headers = 'From: ' . $_POST['from'];
 
 mail($to, $subject, $message, $headers);
 
-echo 'Uw mail is verstuurd';
+echo 'Uw mail is verstuurd<br>';
 
 echo $subject. '<br>' . $message;
 ?>
